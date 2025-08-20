@@ -52,14 +52,18 @@ const LoginPage = () => {
 
   return (
     <div className="h-screen w-screen flex bg-background">
-      <div className="absolute top-5 left-5 z-50"></div>
       <div
         className="relative w-full h-full hidden md:flex bg-center bg-no-repeat bg-cover justify-center items-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(22,163,74,0.25),rgba(8,61,28,1))]" />
 
-        <img src="/logo.png" alt="WPES LOGO" className="size-96 z-50" />
+        <div className="flex flex-col items-center text-white z-50 gap-2">
+          <img src="/logo.png" alt="WPES LOGO" className="size-96 z-50" />
+          <div className="text-4xl font-extrabold">
+            FACULTY MANAGEMENT SYSTEM
+          </div>
+        </div>
       </div>
 
       {/* Main part of the login page */}

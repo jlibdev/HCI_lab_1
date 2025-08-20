@@ -140,6 +140,11 @@ const LoginForm = () => {
       </div>
       <div className="flex flex-col gap-6">
         <section className="flex flex-col items-center gap-2 text-center">
+          <img
+            src="/WPESFMS.svg"
+            alt="wpeslogo"
+            className="size-36 translate-y-5"
+          />
           <h1 className="text-2xl font-bold text-foreground">
             Faculty Login Portal
           </h1>
