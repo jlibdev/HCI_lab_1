@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "email": "jos@example.com",
+      "password": "password"
+    },
+    {
+      "email": "wa@example.com",
+      "password": "wordpass"
+    },
+    {
+      "email": "libando@example.com",
+      "password": "testpass"
+    },
+    {
+      "email": "john@example.com",
+      "password": "passtest"
+    },
+    {
+      "email": "doe@example.com",
+      "password": "passmo"
+    },
+    {
+      "email": "example@example.com",
+      "password": "examplepassword"
+    }
+  ]
+}
